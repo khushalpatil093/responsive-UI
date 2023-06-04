@@ -1,0 +1,27 @@
+.carousel-item img {
+    height: 100vh;
+}
+
+.wrap-container {
+    display: flex;
+}
+
+.wrap-container img {
+    height: 40vh;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.btn:hover {
+    color: #0b5ed7!important;
+    background-color: #fff!important;
+    border: 1px solid #0b5ed7;
+}
+
+@media screen and (min-width:650px) and (max-width:850px) {
+    .wrap-container .container {
+        width: 50% !important;
+    }
+}
